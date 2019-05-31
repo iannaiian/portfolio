@@ -44,3 +44,9 @@ h2{
 .svg{
   margin-top: 33px;
 }
+
+@media screen (max-width:600px){
+  .atf{
+    padding-left: 0;
+  }
+}
