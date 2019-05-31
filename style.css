@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
+
+body{
+  height: 1000px;
+  color: #fff;
+}
+
+
+
+.atf{
+  height: 800px;
+  background:linear-gradient( rgba(0, 255, 208, 0.17), rgba(86, 0, 255, 0.22) ), url(Images/atf-bg.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 50px;
+  background-attachment: fixed;
+}
+
+h2{
+  margin-top: 250px;
+}
+
+#Hello{
+  color: #1B3F45;
+  font-size: 30px;
+  background: #fff;
+  padding: 4px 18px;
+  border-radius: 5px;
+  width: 117px;
+  font-weight: bold;
+}
+
+#brandstamp{
+  padding: 10px 0 10px 0;
+  font-size: 60px;
+
+}
+
+#brandstamp span{
+  font-weight: thin;
+  font-family: 'Poiret One', cursive;
+}
+
+.svg{
+  margin-top: 33px;
+}
