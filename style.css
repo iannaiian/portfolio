@@ -47,6 +47,7 @@ h2{
 
 ul.social-icons{
   padding: 0;
+  margin-left: -10px;
 }
 
 .social-icons li{
@@ -56,6 +57,12 @@ ul.social-icons{
   margin: 0 10px 0 10px;
   border: 1px solid #fff;
   border-radius: 50px;
+}
+
+.social-icons li:hover{
+  color: #e85959;
+  border: 1px solid #e85959;
+  transition: .5s;
 }
 
 .social-icons li i{
