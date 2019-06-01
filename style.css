@@ -48,6 +48,7 @@ h2{
 ul.social-icons{
   padding: 0;
   margin-left: -10px;
+  padding-top: 10px;
 }
 
 .social-icons li{
@@ -65,6 +66,24 @@ ul.social-icons{
   transition: .5s;
 }
 
-.social-icons li i{
+.social-icons li a{
+  color: #fff;
+}
 
+.social-icons li a:hover{
+  color: #e85959;
+}
+
+
+.skew{
+  margin-top:-90px;
+  background-color: #fff;
+  height: 300px;
+  transform:skew(0deg,-5deg);
+}
+
+.skew-content{
+  transform:skew(0deg,5deg);
+  color: #000;
+  padding-top:200px;
 }
