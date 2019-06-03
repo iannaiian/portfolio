@@ -16,7 +16,7 @@ hr{
 
 /* ATF styling */
     .atf{
-      height: 800px;
+      height: 900px;
       background:linear-gradient( rgba(0, 255, 208, 0.17), rgba(86, 0, 255, 0.22) ), url(Images/atf-bg.jpeg);
       background-size: cover;
       background-repeat: no-repeat;
@@ -110,7 +110,7 @@ hr{
 
     #pp img{
       width: 300px;
-      margin-top: -170px;
+      margin-top: -210px;
     }
 
 /* end ATF styling */
@@ -130,45 +130,14 @@ hr{
 /* end footer styling */
 
 
+
 /* section one styling */
 
+
 #section-one{
-  background: #fff;
-  color: #000;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  height: 500px;
 }
 
-#section-one h2{
-  color: #3c3c3c;
-  padding-bottom: 100px;
-  font-weight: 900;
-}
-
-#section-one h4{
-  font-weight: 800;
-  color: #3c3c3c;
-  padding-bottom: 20px;
-}
-
-#section-one h6{
-  font-weight: 600;
-  color: #3c3c3c;
-}
-
-#first-col{
-  border-right: 1px solid #c3c3c3;
-}
-
-#comp-name{
-  font-weight: 900;
-}
-
-.comp-logo{
-  padding-top: 20px;
-  padding-bottom:20px;
-  opacity:0.5;
-}
 
 /* end section one styling */
 
@@ -178,12 +147,26 @@ hr{
 /* section two styling */
 
 #section-two{
-  height:300px;
-  background:linear-gradient( rgba(255, 130, 41, 0.38), rgba(51, 0, 255, 0.28) ),url(Images/bg2.jpg);
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background: linear-gradient( rgb(255, 130, 41), rgba(0, 20, 255, 0.69) ),url(Images/bg2.jpg);
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+
+#section-two i{
+  border: 1px solid #e099993d;
+  background-color: #0404043d;
+  border-radius: 50px;
+  padding:5px;
+  font-size: 13px;
+}
+
+#service{
+  padding-bottom:50px;
 }
 
 /* end section two styling */
