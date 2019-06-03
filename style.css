@@ -108,6 +108,11 @@ hr{
 
     }
 
+    #pp img{
+      width: 300px;
+      margin-top: -170px;
+    }
+
 /* end ATF styling */
 
 
@@ -193,11 +198,11 @@ hr{
   .atf{
     padding:0;
   }
+
+  #pp img{
+    width: 150px;
+    margin-top: -100px;
+  }
 }
 
 /* end @media queries */
-
-
-.parallax-window {
-    min-height: 400px;
-}
