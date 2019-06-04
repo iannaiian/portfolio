@@ -14,6 +14,11 @@ hr{
   padding-bottom:10px;
 }
 
+.container-fluid{
+  padding: 0;
+  margin: 0;
+}
+
 /* ATF styling */
     .atf{
       height: 900px;
@@ -109,8 +114,8 @@ hr{
     }
 
     #pp img{
-      width: 300px;
-      margin-top: -210px;
+      width: 250px;
+      margin-top: -160px;
     }
 
 /* end ATF styling */
@@ -135,16 +140,15 @@ hr{
 
 
 #section-one{
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 .about{
   color: #2b2b2b;
-  padding: 10px;
-  -webkit-box-shadow: -47px 17px 127px -38px rgba(0,0,0,0.26);
-  -moz-box-shadow: -47px 17px 127px -38px rgba(0,0,0,0.26);
-  box-shadow: -47px 17px 127px -38px rgba(0,0,0,0.26);
+  -webkit-box-shadow: -1px 16px 16px -5px rgba(0,0,0,0.24);
+  -moz-box-shadow: -1px 16px 16px -5px rgba(0,0,0,0.24);
+  box-shadow: -1px 16px 16px -5px rgba(0,0,0,0.24);
   border-radius: 10px;
 }
 
@@ -159,7 +163,7 @@ hr{
 #section-two{
   padding-top: 150px;
   padding-bottom: 150px;
-  background: linear-gradient( rgb(255, 130, 41), rgba(0, 20, 255, 0.69) ),url(Images/bg2.jpg);
+  background: linear-gradient( rgba(0, 255, 208, 0.44), rgba(86, 0, 255, 0.62) ),url(Images/bg2.jpg);
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -169,14 +173,25 @@ hr{
 
 #section-two i{
   border: 1px solid #e099993d;
-  background-color: #0404043d;
+  background-color: #000000;
   border-radius: 50px;
-  padding:5px;
+  padding: 5px;
   font-size: 13px;
+  color: #fff;
 }
 
-#service{
+#service-header{
   padding-bottom:50px;
+}
+
+#services{
+  -webkit-box-shadow: -1px 16px 16px -5px rgba(0,0,0,0.24);
+  -moz-box-shadow: -1px 16px 16px -5px rgba(0,0,0,0.24);
+  box-shadow: -1px 16px 16px -5px rgba(0,0,0,0.24);
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #fff;
+  color: #2b2b2b;
 }
 
 /* end section two styling */
@@ -199,3 +214,24 @@ hr{
 }
 
 /* end @media queries */
+
+
+
+/* test */
+.skew2{
+  position: relative;
+}
+.skew2:before{
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  height: 43em;
+  background-color: #fff;
+  background: url(Images/curve2.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* end of test */
