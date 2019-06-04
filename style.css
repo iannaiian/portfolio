@@ -14,10 +14,6 @@ hr{
   padding-bottom:10px;
 }
 
-.container-fluid{
-  padding: 0;
-  margin: 0;
-}
 
 /* ATF styling */
     .atf{
@@ -192,6 +188,7 @@ hr{
   padding: 20px;
   background-color: #fff;
   color: #2b2b2b;
+  margin:5px;
 }
 
 /* end section two styling */
@@ -220,18 +217,24 @@ hr{
 /* test */
 .skew2{
   position: relative;
+
 }
 .skew2:before{
   content: '';
   position: absolute;
   bottom: 0px;
   left: 0;
+  top:0;
   width: 100%;
-  height: 43em;
+  height: 600px;
   background-color: #fff;
   background: url(Images/curve2.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.container-fluid skew2{
+  padding: 0;
 }
 /* end of test */
