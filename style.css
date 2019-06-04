@@ -16,7 +16,7 @@ hr{
 
 /* ATF styling */
     .atf{
-      height: 800px;
+      height: 900px;
       background:linear-gradient( rgba(0, 255, 208, 0.17), rgba(86, 0, 255, 0.22) ), url(Images/atf-bg.jpeg);
       background-size: cover;
       background-repeat: no-repeat;
@@ -130,54 +130,20 @@ hr{
 /* end footer styling */
 
 
-/* section one styling */
+/* section two styling */
 
 #section-one{
-  background: #fff;
-  color: #000;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  height: 300px;
 }
 
-#section-one h2{
-  color: #3c3c3c;
-  padding-bottom: 100px;
-  font-weight: 900;
-}
-
-#section-one h4{
-  font-weight: 800;
-  color: #3c3c3c;
-  padding-bottom: 20px;
-}
-
-#section-one h6{
-  font-weight: 600;
-  color: #3c3c3c;
-}
-
-#first-col{
-  border-right: 1px solid #c3c3c3;
-}
-
-#comp-name{
-  font-weight: 900;
-}
-
-.comp-logo{
-  padding-top: 20px;
-  padding-bottom:20px;
-  opacity:0.5;
-}
-
-/* end section one styling */
+/* end of section two styling */
 
 
 
 
 /* section two styling */
 
-#section-two{
+#mid-section{
   height:300px;
   background:linear-gradient( rgba(255, 130, 41, 0.38), rgba(51, 0, 255, 0.28) ),url(Images/bg2.jpg);
   background-position: top;
