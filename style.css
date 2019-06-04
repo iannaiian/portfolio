@@ -157,7 +157,7 @@ hr{
 /* section two styling */
 
 #section-two{
-  padding-top: 150px;
+  padding-top: 200px;
   padding-bottom: 150px;
   background: linear-gradient( rgba(0, 255, 208, 0.44), rgba(86, 0, 255, 0.62) ),url(Images/bg2.jpg);
   background-position: top;
@@ -191,6 +191,29 @@ hr{
   margin:5px;
 }
 
+.skew2{
+  position: relative;
+
+}
+.skew2:before{
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  top:-1px;
+  width: 100%;
+  height: 600px;
+  background-color: #fff;
+  background: url(Images/curve2.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container-fluid skew2{
+  padding: 0;
+}
+
 /* end section two styling */
 
 
@@ -215,26 +238,5 @@ hr{
 
 
 /* test */
-.skew2{
-  position: relative;
 
-}
-.skew2:before{
-  content: '';
-  position: absolute;
-  bottom: 0px;
-  left: 0;
-  top:0;
-  width: 100%;
-  height: 600px;
-  background-color: #fff;
-  background: url(Images/curve2.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.container-fluid skew2{
-  padding: 0;
-}
 /* end of test */
