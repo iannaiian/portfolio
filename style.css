@@ -132,7 +132,6 @@ hr{
 /* end footer styling */
 
 
-<<<<<<< HEAD
 /* section two styling */
 
 #section-one{
@@ -158,7 +157,6 @@ hr{
   padding: 10px;
 }
 
->>>>>>> branch1
 
 /* end of section two styling */
 
@@ -167,16 +165,13 @@ hr{
 
 /* section two styling */
 
-<<<<<<< HEAD
+
 #mid-section{
   height:300px;
   background:linear-gradient( rgba(255, 130, 41, 0.38), rgba(51, 0, 255, 0.28) ),url(Images/bg2.jpg);
-=======
-#section-two{
   padding-top: 200px;
   padding-bottom: 150px;
   background: linear-gradient( rgba(0, 255, 208, 0.44), rgba(86, 0, 255, 0.62) ),url(Images/bg2.jpg);
->>>>>>> branch1
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
