@@ -14,6 +14,19 @@ hr{
   padding-bottom:10px;
 }
 
+.fa, .fas {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    text-shadow: 0px 2px 5px rgba(0,0,0,0.43);
+    border: 3px solid;
+    width: 60px;
+    padding: 10px;
+    border-radius: 20px 0 20px 0;
+}
+
 
 /* ATF styling */
     .atf{
@@ -139,7 +152,6 @@ hr{
 #section-one{
   padding-top: 150px;
   padding-bottom: 150px;
-  background:url(Images/bg3.jpg);
 }
 
 .about{
@@ -153,6 +165,72 @@ hr{
 
 
 /* end section one styling */
+
+
+/* services section styling */
+
+.services{
+  background-color:#f7f7f7;
+  color: #2b2b2b;
+}
+
+.services h1{
+  color: #fff;
+  text-shadow: 0px 2px 5px rgba(0,0,0,0.43);
+}
+.service-img1{
+  background: linear-gradient( rgba(0, 149, 255, 0.49), rgba(86, 0, 255, 0.5) ), url(Images/svc-bg1.jpg);
+  padding-top:150px;
+  padding-bottom:150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: 1s;
+}
+
+.service-img2{
+  background: linear-gradient( rgba(255, 0, 82, 0.49), rgba(86, 0, 255, 0.5) ),  url(Images/svc-bg2.jpg);
+  padding-top:150px;
+  padding-bottom:150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: 1s;
+}
+
+.service-img3{
+  background: linear-gradient( rgba(255, 200, 0, 0.52), rgba(86, 0, 255, 0.5) ),  url(Images/svc-bg3.jpg);
+  padding-top:150px;
+  padding-bottom:150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: 1s;
+}
+
+
+
+.service-img1:hover{
+  opacity: 0.5;
+}
+
+.service-img2:hover{
+  opacity: 0.5;
+}
+
+.service-img3:hover{
+  opacity: 0.5;
+}
+
+.svc-content{
+  padding: 130px;
+}
+
+.svc-svg1{
+  position: relative;
+}
+
+/* end of services section styling */
 
 
 
@@ -181,6 +259,7 @@ hr{
 
 #service-header{
   padding-bottom:50px;
+  text-shadow: 0px 2px 5px rgba(0,0,0,0.43);
 }
 
 #services{
@@ -194,7 +273,7 @@ hr{
   margin:5px;
 }
 
-.skew2{
+/* .skew2{
   position: relative;
 
 }
@@ -215,7 +294,7 @@ hr{
 
 .container-fluid skew2{
   padding: 0;
-}
+} */
 
 /* end section two styling */
 
@@ -233,6 +312,9 @@ hr{
   #pp img{
     width: 150px;
     margin-top: -100px;
+  }
+  .svc-content{
+    padding: 50px;
   }
 }
 
