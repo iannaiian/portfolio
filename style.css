@@ -14,18 +14,7 @@ hr{
   padding-bottom:10px;
 }
 
-.fa, .fas {
-    font-family: 'Font Awesome 5 Free';
-    font-weight: 900;
-    text-align: center;
-    color: #fff;
-    font-size: 25px;
-    text-shadow: 0px 2px 5px rgba(0,0,0,0.43);
-    border: 3px solid;
-    width: 60px;
-    padding: 10px;
-    border-radius: 20px 0 20px 0;
-}
+
 
 
 /* ATF styling */
@@ -123,10 +112,7 @@ hr{
 
     }
 
-    #pp img{
-      width: 250px;
-      margin-top: -180px;
-    }
+
 
 /* end ATF styling */
 
@@ -148,6 +134,10 @@ hr{
 
 /* section one styling */
 
+#pp{
+  width: 250px;
+  margin-top: -180px;
+}
 
 #section-one{
   padding-top: 150px;
@@ -156,11 +146,11 @@ hr{
 
 .about{
   color: #2b2b2b;
-  -webkit-box-shadow: -1px 16px 16px -5px rgba(0,0,0,0.24);
+  /* -webkit-box-shadow: -1px 16px 16px -5px rgba(0,0,0,0.24);
   -moz-box-shadow: -1px 16px 16px -5px rgba(0,0,0,0.24);
   box-shadow: -1px 16px 16px -5px rgba(0,0,0,0.24);
   border-radius: 10px;
-  padding: 10px;
+  padding: 10px; */
 }
 
 
@@ -168,6 +158,20 @@ hr{
 
 
 /* services section styling */
+
+
+.services .fa, .services .fas {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    text-shadow: 0px 2px 5px rgba(0,0,0,0.43);
+    border: 3px solid;
+    width: 60px;
+    padding: 10px;
+    border-radius: 20px 0 20px 0;
+}
 
 .services{
   background-color:#f7f7f7;
@@ -178,6 +182,7 @@ hr{
   color: #fff;
   text-shadow: 0px 2px 5px rgba(0,0,0,0.43);
 }
+
 .service-img1{
   background: linear-gradient( rgba(0, 149, 255, 0.49), rgba(86, 0, 255, 0.5) ), url(Images/svc-bg1.jpg);
   padding-top:150px;
@@ -213,6 +218,7 @@ hr{
 .service-img1:hover{
   opacity: 0.5;
 }
+
 
 .service-img2:hover{
   opacity: 0.5;
@@ -323,5 +329,7 @@ hr{
 
 
 /* test */
+
+
 
 /* end of test */
